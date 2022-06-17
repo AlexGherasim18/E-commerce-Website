@@ -1,0 +1,1173 @@
+$breakpoint-one: 1375px;
+$breakpoint-two: 1073px;
+$breakpoint-three: 1010px;
+$breakpoint-four: 970px;
+$breakpoint-five: 780px;
+$breakpoint-six: 660px;
+$breakpoint-seven: 580px;
+$breakpoint-eight: 460px;
+$breakpoint-nine: 420px;
+
+@media (max-width: $breakpoint-one){
+  body {
+    width: 100vw;
+  }
+  .list-item {
+    a {
+      font-size: 16px;
+    }
+  }
+  .dropdown-nutrition, .dropdown-clothing, .dropdown-vitamins {
+    position: absolute;
+    top: 35px;
+    left: 0;
+  }
+
+  .dropdown-vitamins {
+    width: 40vw;
+    height: 15vh;
+    .dropdown {
+      .dropdown-list {
+        margin: 10px 10px 0 10px;
+        line-height: 1.4rem;
+      }
+    }
+  }
+
+  .shipping-info {
+    font-size: 12px;
+  }
+
+  .offer-photo {
+    height: 400px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  // All Products Page
+  .page-order {
+    margin-left: 30px;
+  }
+
+  .flexbox-allproducts-page{
+    .filters {
+      margin-left: 30px;
+
+      .product-item {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .gridbox-list {
+    .image-container {
+      img {
+        width: 270px;
+        height: 270px;
+      }
+    }
+  }
+  // //
+
+  .recommended-products {
+    width: 100%;
+    font-size: 16px;
+    margin-left: 50px;
+  }
+
+  .recommended-list {
+    .product-image {
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    }
+
+    .quick-buy { 
+      position: relative;
+      bottom: 15px;
+      right: 90px;
+      .quick-buy-btn {
+        font-size: 14px;
+        padding: 6px;
+      }
+    }  
+  }
+
+  .pop-up {
+    width: 600px;
+    height: 400px;
+    .title-close {
+      .pop-up-title {
+        font-size: 28px;
+      }
+    }
+    .pop-up-product-block {
+      .pop-up-product-info {
+        .pop-up-product-name {
+          font-size: 24px;
+          margin-bottom: 25px;
+        }
+        .pop-up-review-stars {
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
+        .pop-up-price {
+          font-size: 20px;
+          margin-bottom: 60px;
+        }
+        .add-to-basket {
+          padding: 10px 40px 10px 40px;
+          font-size: 20px;
+        }  
+      }
+    }
+  }
+
+
+  .pop-up-image-container {
+    img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+
+  .login-pop-up, .register-pop-up {
+    overflow: auto;
+    width: 400px;
+    height: 500px;
+    .container-tit-del {
+      width: 360px;
+    }
+    .container-info {
+      font-size: 20px;
+      max-width: 360px;
+      .login-input, .register-input {
+        line-height: 2rem;
+      }
+
+      .submit-register {
+        font-size: 20px;
+        padding: 12px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  @media (max-device-width: $breakpoint-two) {
+      .logo {
+        font-size: 24px;
+      }
+  
+      .search-form {
+        .search-container {
+          width: 400px;
+  
+          .search-bar {
+            line-height: 1.4rem;
+          }
+        }
+      }
+  
+      .account-and-basket {
+        .account-basket-item {
+          font-size: 16px;
+  
+          .dropdown-user {
+            top: 40px;
+          }
+          .dropdown-basket {
+            top: 40px;
+            .basket-list {
+              .basket-product-info{
+                width: 100%;
+                margin: auto;
+        
+                .basket-product-name {
+                  font-size: 14px;
+                  margin-bottom: 15px;
+                }
+              }
+              .buy-basket-products {
+                font-size: 18px;
+                padding: 10px;
+                width: 60%;
+              }
+              .basket-total-price {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+      .list-item {
+        a {
+          font-size: 14px;
+        }
+      }
+  
+      .dropdown-nutrition, .dropdown-clothing, .dropdown-vitamins {
+        position: absolute;
+        top: 30px;
+        left: 0;
+      }
+  
+      .dropdown-vitamins {
+        width: 45vw;
+        height: 15vh;
+      }
+  
+      .shipping-info {
+        font-size: 10px;
+      }
+  
+      .offer {
+        font-size: 16px;
+      }
+  
+      .offer-photo {
+        height: 300px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+       // All Products Page
+  .page-order {
+    margin-left: 20px;
+  }
+
+  .flexbox-allproducts-page{
+    .filters {
+      margin-left: 20px;
+      .filter-title {
+        font-size: 16px;
+      }
+      .product-item {
+        font-size: 14px;
+      }
+    }
+
+    .all-products-section {
+      font-size: 14px;
+    }
+  }
+
+  .gridbox-list {
+    .image-container {
+      img {
+        width: 180px;
+        height: 180px;
+      }
+    }
+  }
+  // //
+  
+      .recommended-list {
+        width: 80%;
+        list-style: none;
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+      }
+  
+      .pop-up {
+        width: 600px;
+        height: 400px;
+        .title-close {
+          .pop-up-title {
+            font-size: 28px;
+          }
+        }
+        .pop-up-product-block {
+          .pop-up-product-info {
+            .pop-up-product-name {
+              font-size: 24px;
+              margin-bottom: 25px;
+            }
+            .pop-up-review-stars {
+              font-size: 20px;
+              margin-bottom: 20px;
+            }
+            .pop-up-price {
+              font-size: 20px;
+              margin-bottom: 60px;
+            }
+            .add-to-basket {
+              padding: 10px 40px 10px 40px;
+              font-size: 20px;
+            }  
+          }
+        }
+      }
+    
+    
+      .pop-up-image-container {
+        img {
+          width: 250px;
+          height: 250px;
+        }
+      }
+      @media (max-device-width: $breakpoint-three){        
+        .offer-photo {
+          height: 280px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        // All Products Page
+        .gridbox-list {
+          .image-container {
+            img {
+              width: 160px;
+              height: 160px;
+            }
+            .quick-buy {
+              width: 100px;
+              bottom: 10px;
+              right: 75px;
+              .quick-buy-btn {
+                font-size: 12px;
+                padding: 6px;
+              }
+            }
+          }
+        }
+        // //
+  
+        .pop-up {
+          width: 600px;
+          height: 400px;
+          .title-close {
+            .pop-up-title {
+              font-size: 28px;
+            }
+          }
+          .pop-up-product-block {
+            .pop-up-product-info {
+              .pop-up-review-stars {
+                font-size: 20px;
+                margin-bottom: 20px;
+              }  
+            }
+          }
+        }
+      
+      
+        .pop-up-image-container {
+          img {
+            width: 250px;
+            height: 250px;
+          }
+        }
+      
+        #footer {
+          margin-top: 80px;
+        
+          .footer-contact {
+            .sign-up {
+              color: #ffff;
+              font-size: 16px;
+            }
+          }  
+          .social-media {
+            width: 50%;
+        
+            .link-list {
+              padding-top: 26px;
+              font-size: 20px;
+            }  
+          }
+        }    
+        @media (max-device-width: $breakpoint-four){  
+          .account-and-basket {
+            .account-basket-item {
+              .dropdown-basket {
+                top: 40px;
+        
+                .basket-list {
+                  .basket-product-img-container {
+                    .basket-product-del {
+                      width: 20px;
+                      height: 20px;
+                      font-size: 14px;
+                      border: none;
+                      margin: 0 5px;
+            
+                      &:hover {
+                        filter: brightness(120%);
+                      }
+                    }
+                  }    
+                }
+              }
+            }
+          }
+      
+          .dropdown-nutrition, .dropdown-clothing, .dropdown-vitamins {
+            .dropdown {
+              .dropdown-list {
+                li {
+                  a {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+          .offer-photo {
+            height: 300px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          // All Products Page
+          .page-order {
+              margin-left: 10px;
+              font-size: 12px;
+          }
+        
+          .flexbox-allproducts-page{
+            .filters {
+              margin-left: 10px;
+              .filter-title {
+                font-size: 12px;
+              }
+              .product-item {
+                font-size: 12px;
+              }
+            }
+        
+            .all-products-section {
+              font-size: 12px;
+            }
+          }
+
+          .gridbox-list {
+            .image-container {
+              img {
+                width: 154px;
+                height: 154px;
+              }
+            }
+          }      
+        // //
+          .account-and-basket {
+            .account-basket-item {
+              .dropdown-user {
+                background: #e0e3e3;
+                width: 200px;
+                height: 160px;
+        
+                .dropdown-user-buttons {
+                  button {
+                    width: 120px;
+                    font-size: 18px;
+                  }
+                }  
+              }  
+            }
+          }
+        
+          #footer {
+            .footer-logos {
+              display: none;
+            }
+          }
+          @media (max-device-width: $breakpoint-five) { 
+            .logo {
+              font-size: 22px;
+            } 
+            .search-form {
+              width: 270px;
+              .search-container {
+                width: 270px;
+        
+                .search-bar {
+                  line-height: 1.2rem;
+                  font-size: 14px;
+                }
+                .search-btn {
+                  font-size: 14px;
+                }
+              }
+            }
+            .dropdown-nutrition, .dropdown-clothing, .dropdown-vitamins {
+              position: absolute;
+              top: 30px;
+              left: 0;
+              .dropdown {
+                .dropdown-list {
+                  margin: 40px 10px 0 30px;
+                  line-height: 1.4rem;
+                }
+              }
+            }
+          
+            .dropdown-vitamins {
+              width: 45vw;
+              height: 15vh;
+              .dropdown {
+                .dropdown-list {
+                  margin: 10px 5px 0 10px;
+                  line-height: 1rem;
+                }
+              }
+            }
+          
+            .shipping-info {
+              display: none;
+            }
+
+            // All Products Page
+            .flexbox-allproducts-page{
+              .all-products-section {
+                margin-left: 40px;
+
+              }
+            }
+            .all-proteins-section {
+              margin-left: 30px;
+            }
+
+            .gridbox-list {
+              display: grid;
+              grid-template-columns: repeat(2, auto);
+              grid-gap: 1.2rem;
+              .image-container {
+                img {
+                  width: 190px;
+                  height: 190px;
+                }
+              }
+            } 
+            // //
+            .discover-list {
+              display: grid;
+              grid-template-columns: auto auto;
+          
+              .discover-item {
+                padding: 1.2rem 1.8rem;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                color: #ffff;
+              }
+            }
+          
+            .recommended-list {
+              width: 80%;
+              list-style: none;
+              display: grid;
+              grid-template-columns: auto auto;
+              row-gap: 20px;
+            }
+          
+            .recommended-list {
+              .product-image {
+                img {
+                  width: 160px;
+                  height: 160px;
+                }
+              }
+          
+              .quick-buy { 
+                position: relative;
+                bottom: 15px;
+                right: 80px;
+                .quick-buy-btn {
+                  font-size: 12px;
+                  padding: 6px;
+                }
+              }
+              .product-name {
+                font-size: 16px;
+              }
+              .review-stars {
+                font-size: 14px;
+              }
+            }
+          
+            .account-and-basket {
+              .account-basket-item {
+                .dropdown-basket {
+                  width: 35vw;
+                  .basket-list {
+                    .basket-product-img-container {
+                      .basket-product-del {
+          
+                        width: 20px;
+                        height: 20px;
+                        font-size: 14px;
+                        border: none;
+                        margin: 0 5px;
+              
+                        &:hover {
+                          filter: brightness(120%);
+                        }
+                      }
+                    }    
+                    .basket-product-info{
+                      width: 100%;
+                      margin: auto;
+              
+                      .basket-product-name {
+                        font-size: 14px;
+                        margin-bottom: 15px;
+                      }
+                    }
+                    .buy-basket-products {
+                      font-size: 18px;
+                      padding: 10px;
+                      width: 60%;
+                    }
+                    .basket-total-price {
+                      font-size: 18px;
+                    }
+                  }
+                }
+              }
+            }
+          
+            #footer {
+              .footer-logos {
+                display: none;
+              }
+          
+              .footer-contact {
+                .sign-up {
+                  color: #ffff;
+                  font-size: 14px;
+                }
+              }  
+              .social-media {
+                width: 50%;
+            
+                .link-list {
+                  padding-top: 26px;
+                  font-size: 14px;
+                }  
+              }
+            }
+            @media (max-device-width: $breakpoint-six) {
+              .search-form {
+                display: none;
+              }
+              #nav-bar {
+                display: flex;
+                height: 200px;
+            
+                .list {
+                  display: flex;
+                  flex-direction: column;
+                }
+              }
+              .dropdown-nutrition, .dropdown-clothing, .dropdown-vitamins {
+                position: absolute;
+                top: 45px;
+                left: 0;
+                width: 80vw;
+                height: 30vh;
+              }
+            
+              .dropdown-vitamins {
+                width: 70vw;
+                height: 10vh;
+                .dropdown {
+                  .dropdown-list {
+                    margin: 10px 5px 0 10px;
+                    line-height: 1rem;
+                  }
+                }
+              }
+            
+              .offer {
+                font-size: 14px;
+              }
+              .offer-photo {
+                height: 200px;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+
+              // All Products
+              .flexbox-allproducts-page{
+                .filters {
+                 display: none;
+                }
+              }    
+              ////
+
+              .pop-up {
+                width: 400px;
+                height: 320px;
+                .title-close {
+                  .pop-up-title {
+                    font-size: 20px;
+                    padding-bottom: 5px;
+                  }
+                  .pop-up-close {
+                    padding: 5px;
+                  }
+                }
+                
+                .pop-up-product-block {
+                  .pop-up-image-container{
+                    img {
+                      width: 180px;
+                      height: 180px;
+                    }
+                  }
+                  .pop-up-product-info {
+                    .pop-up-product-name {
+                      font-size: 18px;
+                      margin-bottom: 20px;
+                    }
+                    .pop-up-review-stars {
+                      font-size: 16px;
+                      margin-bottom: 15px;
+                    }
+                    .pop-up-price {
+                      font-size: 16px;
+                      margin-bottom: 40px;
+                    }
+                    .add-to-basket {
+                      padding: 10px 30px 10px 30px;
+                      font-size: 20px;
+                    }  
+                  }
+                }
+              }
+            
+              .account-and-basket {
+                .account-basket-item {
+                  .dropdown-basket {
+                    width: 50vw;
+                  }
+                }
+              }
+
+              // Pop up Quick Buy Window
+              .pop-up {
+                width: 400px;
+                height: 420px;
+
+                .title-close {
+                  .pop-up-title {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    padding-bottom: 8px;
+                  }
+                  .pop-up-close {
+                    font-size: 14px;
+                    padding: 4px;
+                  }
+                }
+                .pop-up-product-block {
+                  .pop-up-image-container{
+                    img {
+                      width: 200px;
+                      height: 200px;
+                    }
+                  }
+                  .pop-up-product-info {
+                    .pop-up-product-name {
+                      font-size: 14px;
+                    }
+                    .pop-up-review-stars {
+                      font-size: 12px;
+                    }
+                    .amount {
+                      width: 40px;
+                    }
+                    .add-to-basket {
+                      font-size: 14px;
+                      padding: 20px 30px;
+                    }
+                  }
+                }
+              }
+            
+              #footer {
+                .footer-logos {
+                  display: none;
+                }
+            
+                .footer-contact {
+                  display: flex;
+                  flex-direction: column;
+                  height: 180px;
+                }  
+                .social-media {
+                  width: 50%;
+                  align-self: center;
+              
+                  .link-list {
+                    padding-top: 26px;
+                    font-size: 18px;
+                    padding-bottom: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                  }  
+                }
+              }
+
+              .login-pop-up, .register-pop-up {
+                overflow: auto;
+                width: 300px;
+                height: 400px;
+                .container-tit-del {
+                  width: 260px;
+                }
+                .container-info {
+                  font-size: 20px;
+                  max-width: 260px;
+                  .login-input, .register-input {
+                    line-height: 1.6rem;
+                  }
+            
+                  .submit-register {
+                    font-size: 20px;
+                    padding: 12px;
+                    margin-bottom: 15px;
+                  }
+                }
+              }  
+              @media (max-device-width: $breakpoint-seven) { 
+                .recommended-list {
+                  display: grid;
+                  grid-template-columns: auto;
+                  margin-left: 0;
+                }
+                
+                // All Products Page
+                .gridbox-list {
+                  .image-container {
+                    img {
+                      width: 130px;
+                      height: 130px;
+                    }
+                  }
+                } 
+
+                // Pop up Quick Buy Window
+                .pop-up {
+                  width: 400px;
+                  height: 420px;
+
+                  .title-close {
+                    .pop-up-title {
+                      margin-top: 10px;
+                      font-size: 14px;
+                      padding-bottom: 8px;
+                    }
+                    .pop-up-close {
+                      font-size: 14px;
+                      padding: 4px;
+                    }
+                  }
+                  .pop-up-product-block {
+                    .pop-up-image-container{
+                      img {
+                        width: 200px;
+                        height: 200px;
+                      }
+                    }
+                    .pop-up-product-info {
+                      .pop-up-product-name {
+                        font-size: 14px;
+                      }
+                      .pop-up-review-stars {
+                        font-size: 12px;
+                      }
+                      .amount {
+                        width: 40px;
+                      }
+                      .add-to-basket {
+                        font-size: 14px;
+                        padding: 20px 30px;
+                      }
+                    }
+                  }
+                }
+
+                #footer {
+                  .footer-logos {
+                    display: none;
+                  }
+              
+                  .footer-contact {
+                    display: flex;
+                    flex-direction: column;
+                    height: 180px;
+                    .sign-up {
+                      color: #ffff;
+                      font-size: 14px;
+                    }
+                  }  
+                  .social-media {
+                    width: 50%;
+                    align-self: center;
+                
+                    .link-list {
+                      padding-top: 26px;
+                      font-size: 18px;
+                      padding-bottom: 10px;
+                      display: flex;
+                      flex-direction: row;
+                      align-items: center;
+                    }  
+                  }
+                }
+              
+                @media (max-device-width: $breakpoint-eight) {
+                  .logo {
+                    font-size: 18px;
+                  }
+                  .account-and-basket{
+                    font-size: 18px;
+                  }
+                  #nav-bar {
+                    height: 100px;
+                    .list {
+                      margin-left: 20px;
+                      .dropdown-nutrition, .dropdown-clothing, .dropdown-vitamins {
+                        top:30px;
+                      }
+                    }
+                  }
+
+                  // All Products Page
+                  .gridbox-list {
+                    font-size: 10px;
+                    .image-container {
+                      img {
+                        width: 100px;
+                        height: 100px;
+                      }
+                      .quick-buy {
+                        width: 80px;
+                        bottom: 10px;
+                        right: 65px;
+                        .quick-buy-btn {
+                          font-size: 10px;
+                          padding: 4px;
+                        }
+                      }
+                    }
+                  } 
+                  .pop-up {
+                    width: 300px;
+                    height: 400px;
+
+                    .title-close {
+                      .pop-up-title {
+                        margin-top: 10px;
+                        font-size: 14px;
+                        padding-bottom: 8px;
+                      }
+                      .pop-up-close {
+                        font-size: 14px;
+                        padding: 4px;
+                      }
+                    }
+                    .pop-up-product-block {
+                      .pop-up-image-container{
+                        img {
+                          width: 100px;
+                          height: 100px;
+                        }
+                      }
+                      .pop-up-product-info {
+                        .pop-up-product-name {
+                          font-size: 14px;
+                        }
+                        .pop-up-review-stars {
+                          font-size: 12px;
+                        }
+                        .amount {
+                          width: 40px;
+                        }
+                        .add-to-basket {
+                          font-size: 14px;
+                          padding: 20px 30px;
+                        }
+                      }
+                    }
+                  }
+
+                  #footer {
+                    .footer-contact{
+                      .sign-up {
+                        align-self: flex-start;
+                        margin-left: 30px;
+                      }
+                
+                      .social-media {
+                        align-self: flex-start;
+                        margin-left: 30px;
+                      }
+                    }
+                  }
+
+                  @media (max-device-width: $breakpoint-nine) {
+                    body {
+                      overflow-x: hidden;
+                    }
+                    .header {
+                      display: flex;
+                      flex-direction: column;
+                      .logo {
+                        padding-top: 10px;
+                        font-size: 20px;
+                      }
+                    }
+
+                    #nav-bar {
+                      .list {
+                        margin-left: 0;
+                      }
+                    }
+
+                    .dropdown-nutrition, .dropdown-clothing, .dropdown-vitamins {
+                      width: 95vw;
+                    }
+
+                    .offer {
+                      font-size: 12px;
+                    }
+                    .offer-photo {
+                      height: 150px;
+                    }
+
+                    // All Products Page 
+                    .flexbox-allproducts-page {
+                      .all-products-section {
+                        margin-left: 10px;
+                      }
+                    }
+                    .gridbox-list {
+                      font-size: 8px;
+                      .image-container {
+                        img {
+                          width: 85px;
+                          height: 85px;
+                        }
+                      }
+                    }    
+
+                    .discover-list {
+                      margin-top: 10px;
+                      display: grid;
+                      grid-template-columns: auto;
+                      row-gap: 5px;
+                      height: 400px;
+                      .discover-item {
+                        padding: 0.8rem 1.2rem;
+                      }
+                    }
+                    
+                    // Pop UP QUick Buy Window
+                    .pop-up {
+                      width: 300px;
+                      height: 400px;
+
+                      .title-close {
+                        .pop-up-title {
+                          margin-top: 10px;
+                          font-size: 14px;
+                          padding-bottom: 8px;
+                        }
+                        .pop-up-close {
+                          font-size: 14px;
+                          padding: 4px;
+                        }
+                      }
+                      .pop-up-product-block {
+                        .pop-up-image-container{
+                          img {
+                            width: 100px;
+                            height: 100px;
+                          }
+                        }
+                        .pop-up-product-info {
+                          .pop-up-product-name {
+                            font-size: 14px;
+                          }
+                          .pop-up-review-stars {
+                            font-size: 12px;
+                          }
+                          .amount {
+                            width: 40px;
+                          }
+                          .add-to-basket {
+                            font-size: 14px;
+                            padding: 20px 30px;
+                          }
+                        }
+                      }
+                    }
+
+                    #footer {
+                      .footer-contact{
+                        .sign-up {
+                          align-self: flex-start;
+                          margin-left: 10px;
+                        }
+                  
+                        .social-media {
+                          align-self: flex-start;
+                          margin-left: 10px;
+
+                          .link-list {
+                            width: 20%;
+                            .link-item {
+                              font-size: 16px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                    
+                    .login-pop-up, .register-pop-up {
+                      overflow: auto;
+                      width: 280px;
+                      height: 400px;
+                      .container-tit-del {
+                        width: 220px;
+                      }
+                      .container-info {
+                        font-size: 16px;
+                        max-width: 220px;
+                        .login-input, .register-input {
+                          line-height: 1.4rem;
+                        }
+                  
+                        .submit-register {
+                          font-size: 16px;
+                          padding: 12px;
+                          margin-bottom: 10px;
+                        }
+                      }
+                    }  
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+  }
+}
+
+
+
+

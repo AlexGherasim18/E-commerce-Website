@@ -1,0 +1,921 @@
+@media (max-width: 1375px) {
+  body {
+    width: 100vw;
+  }
+  .list-item a {
+    font-size: 16px;
+  }
+  .dropdown-nutrition, .dropdown-clothing, .dropdown-vitamins {
+    position: absolute;
+    top: 35px;
+    left: 0;
+  }
+  .dropdown-vitamins {
+    width: 40vw;
+    height: 15vh;
+  }
+  .dropdown-vitamins .dropdown .dropdown-list {
+    margin: 10px 10px 0 10px;
+    line-height: 1.4rem;
+  }
+  .shipping-info {
+    font-size: 12px;
+  }
+  .offer-photo {
+    height: 400px;
+  }
+  .offer-photo img {
+    width: 100%;
+    height: 100%;
+  }
+  .page-order {
+    margin-left: 30px;
+  }
+  .flexbox-allproducts-page .filters {
+    margin-left: 30px;
+  }
+  .flexbox-allproducts-page .filters .product-item {
+    font-size: 16px;
+  }
+  .gridbox-list .image-container img {
+    width: 270px;
+    height: 270px;
+  }
+  .recommended-products {
+    width: 100%;
+    font-size: 16px;
+    margin-left: 50px;
+  }
+  .recommended-list .product-image img {
+    width: 200px;
+    height: 200px;
+  }
+  .recommended-list .quick-buy {
+    position: relative;
+    bottom: 15px;
+    right: 90px;
+  }
+  .recommended-list .quick-buy .quick-buy-btn {
+    font-size: 14px;
+    padding: 6px;
+  }
+  .pop-up {
+    width: 600px;
+    height: 400px;
+  }
+  .pop-up .title-close .pop-up-title {
+    font-size: 28px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-product-name {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-review-stars {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-price {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .add-to-basket {
+    padding: 10px 40px 10px 40px;
+    font-size: 20px;
+  }
+  .pop-up-image-container img {
+    width: 250px;
+    height: 250px;
+  }
+  .login-pop-up, .register-pop-up {
+    overflow: auto;
+    width: 400px;
+    height: 500px;
+  }
+  .login-pop-up .container-tit-del, .register-pop-up .container-tit-del {
+    width: 360px;
+  }
+  .login-pop-up .container-info, .register-pop-up .container-info {
+    font-size: 20px;
+    max-width: 360px;
+  }
+  .login-pop-up .container-info .login-input, .login-pop-up .container-info .register-input, .register-pop-up .container-info .login-input, .register-pop-up .container-info .register-input {
+    line-height: 2rem;
+  }
+  .login-pop-up .container-info .submit-register, .register-pop-up .container-info .submit-register {
+    font-size: 20px;
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1375px) and (max-device-width: 1073px) {
+  .logo {
+    font-size: 24px;
+  }
+  .search-form .search-container {
+    width: 400px;
+  }
+  .search-form .search-container .search-bar {
+    line-height: 1.4rem;
+  }
+  .account-and-basket .account-basket-item {
+    font-size: 16px;
+  }
+  .account-and-basket .account-basket-item .dropdown-user {
+    top: 40px;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket {
+    top: 40px;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket .basket-list .basket-product-info {
+    width: 100%;
+    margin: auto;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket .basket-list .basket-product-info .basket-product-name {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket .basket-list .buy-basket-products {
+    font-size: 18px;
+    padding: 10px;
+    width: 60%;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket .basket-list .basket-total-price {
+    font-size: 18px;
+  }
+  .list-item a {
+    font-size: 14px;
+  }
+  .dropdown-nutrition, .dropdown-clothing, .dropdown-vitamins {
+    position: absolute;
+    top: 30px;
+    left: 0;
+  }
+  .dropdown-vitamins {
+    width: 45vw;
+    height: 15vh;
+  }
+  .shipping-info {
+    font-size: 10px;
+  }
+  .offer {
+    font-size: 16px;
+  }
+  .offer-photo {
+    height: 300px;
+  }
+  .offer-photo img {
+    width: 100%;
+    height: 100%;
+  }
+  .page-order {
+    margin-left: 20px;
+  }
+  .flexbox-allproducts-page .filters {
+    margin-left: 20px;
+  }
+  .flexbox-allproducts-page .filters .filter-title {
+    font-size: 16px;
+  }
+  .flexbox-allproducts-page .filters .product-item {
+    font-size: 14px;
+  }
+  .flexbox-allproducts-page .all-products-section {
+    font-size: 14px;
+  }
+  .gridbox-list .image-container img {
+    width: 180px;
+    height: 180px;
+  }
+  .recommended-list {
+    width: 80%;
+    list-style: none;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    row-gap: 20px;
+  }
+  .pop-up {
+    width: 600px;
+    height: 400px;
+  }
+  .pop-up .title-close .pop-up-title {
+    font-size: 28px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-product-name {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-review-stars {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-price {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .add-to-basket {
+    padding: 10px 40px 10px 40px;
+    font-size: 20px;
+  }
+  .pop-up-image-container img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 1375px) and (max-device-width: 1073px) and (max-device-width: 1010px) {
+  .offer-photo {
+    height: 280px;
+  }
+  .offer-photo img {
+    width: 100%;
+    height: 100%;
+  }
+  .gridbox-list .image-container img {
+    width: 160px;
+    height: 160px;
+  }
+  .gridbox-list .image-container .quick-buy {
+    width: 100px;
+    bottom: 10px;
+    right: 75px;
+  }
+  .gridbox-list .image-container .quick-buy .quick-buy-btn {
+    font-size: 12px;
+    padding: 6px;
+  }
+  .pop-up {
+    width: 600px;
+    height: 400px;
+  }
+  .pop-up .title-close .pop-up-title {
+    font-size: 28px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-review-stars {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .pop-up-image-container img {
+    width: 250px;
+    height: 250px;
+  }
+  #footer {
+    margin-top: 80px;
+  }
+  #footer .footer-contact .sign-up {
+    color: #ffff;
+    font-size: 16px;
+  }
+  #footer .social-media {
+    width: 50%;
+  }
+  #footer .social-media .link-list {
+    padding-top: 26px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1375px) and (max-device-width: 1073px) and (max-device-width: 1010px) and (max-device-width: 970px) {
+  .account-and-basket .account-basket-item .dropdown-basket {
+    top: 40px;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket .basket-list .basket-product-img-container .basket-product-del {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    border: none;
+    margin: 0 5px;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket .basket-list .basket-product-img-container .basket-product-del:hover {
+    -webkit-filter: brightness(120%);
+            filter: brightness(120%);
+  }
+  .dropdown-nutrition .dropdown .dropdown-list li a, .dropdown-clothing .dropdown .dropdown-list li a, .dropdown-vitamins .dropdown .dropdown-list li a {
+    font-size: 12px;
+  }
+  .offer-photo {
+    height: 300px;
+  }
+  .offer-photo img {
+    width: 100%;
+    height: 100%;
+  }
+  .page-order {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .flexbox-allproducts-page .filters {
+    margin-left: 10px;
+  }
+  .flexbox-allproducts-page .filters .filter-title {
+    font-size: 12px;
+  }
+  .flexbox-allproducts-page .filters .product-item {
+    font-size: 12px;
+  }
+  .flexbox-allproducts-page .all-products-section {
+    font-size: 12px;
+  }
+  .gridbox-list .image-container img {
+    width: 154px;
+    height: 154px;
+  }
+  .account-and-basket .account-basket-item .dropdown-user {
+    background: #e0e3e3;
+    width: 200px;
+    height: 160px;
+  }
+  .account-and-basket .account-basket-item .dropdown-user .dropdown-user-buttons button {
+    width: 120px;
+    font-size: 18px;
+  }
+  #footer .footer-logos {
+    display: none;
+  }
+}
+
+@media (max-width: 1375px) and (max-device-width: 1073px) and (max-device-width: 1010px) and (max-device-width: 970px) and (max-device-width: 780px) {
+  .logo {
+    font-size: 22px;
+  }
+  .search-form {
+    width: 270px;
+  }
+  .search-form .search-container {
+    width: 270px;
+  }
+  .search-form .search-container .search-bar {
+    line-height: 1.2rem;
+    font-size: 14px;
+  }
+  .search-form .search-container .search-btn {
+    font-size: 14px;
+  }
+  .dropdown-nutrition, .dropdown-clothing, .dropdown-vitamins {
+    position: absolute;
+    top: 30px;
+    left: 0;
+  }
+  .dropdown-nutrition .dropdown .dropdown-list, .dropdown-clothing .dropdown .dropdown-list, .dropdown-vitamins .dropdown .dropdown-list {
+    margin: 40px 10px 0 30px;
+    line-height: 1.4rem;
+  }
+  .dropdown-vitamins {
+    width: 45vw;
+    height: 15vh;
+  }
+  .dropdown-vitamins .dropdown .dropdown-list {
+    margin: 10px 5px 0 10px;
+    line-height: 1rem;
+  }
+  .shipping-info {
+    display: none;
+  }
+  .flexbox-allproducts-page .all-products-section {
+    margin-left: 40px;
+  }
+  .all-proteins-section {
+    margin-left: 30px;
+  }
+  .gridbox-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    grid-gap: 1.2rem;
+  }
+  .gridbox-list .image-container img {
+    width: 190px;
+    height: 190px;
+  }
+  .discover-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .discover-list .discover-item {
+    padding: 1.2rem 1.8rem;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffff;
+  }
+  .recommended-list {
+    width: 80%;
+    list-style: none;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    row-gap: 20px;
+  }
+  .recommended-list .product-image img {
+    width: 160px;
+    height: 160px;
+  }
+  .recommended-list .quick-buy {
+    position: relative;
+    bottom: 15px;
+    right: 80px;
+  }
+  .recommended-list .quick-buy .quick-buy-btn {
+    font-size: 12px;
+    padding: 6px;
+  }
+  .recommended-list .product-name {
+    font-size: 16px;
+  }
+  .recommended-list .review-stars {
+    font-size: 14px;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket {
+    width: 35vw;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket .basket-list .basket-product-img-container .basket-product-del {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    border: none;
+    margin: 0 5px;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket .basket-list .basket-product-img-container .basket-product-del:hover {
+    -webkit-filter: brightness(120%);
+            filter: brightness(120%);
+  }
+  .account-and-basket .account-basket-item .dropdown-basket .basket-list .basket-product-info {
+    width: 100%;
+    margin: auto;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket .basket-list .basket-product-info .basket-product-name {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket .basket-list .buy-basket-products {
+    font-size: 18px;
+    padding: 10px;
+    width: 60%;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket .basket-list .basket-total-price {
+    font-size: 18px;
+  }
+  #footer .footer-logos {
+    display: none;
+  }
+  #footer .footer-contact .sign-up {
+    color: #ffff;
+    font-size: 14px;
+  }
+  #footer .social-media {
+    width: 50%;
+  }
+  #footer .social-media .link-list {
+    padding-top: 26px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1375px) and (max-device-width: 1073px) and (max-device-width: 1010px) and (max-device-width: 970px) and (max-device-width: 780px) and (max-device-width: 660px) {
+  .search-form {
+    display: none;
+  }
+  #nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 200px;
+  }
+  #nav-bar .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .dropdown-nutrition, .dropdown-clothing, .dropdown-vitamins {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 80vw;
+    height: 30vh;
+  }
+  .dropdown-vitamins {
+    width: 70vw;
+    height: 10vh;
+  }
+  .dropdown-vitamins .dropdown .dropdown-list {
+    margin: 10px 5px 0 10px;
+    line-height: 1rem;
+  }
+  .offer {
+    font-size: 14px;
+  }
+  .offer-photo {
+    height: 200px;
+  }
+  .offer-photo img {
+    width: 100%;
+    height: 100%;
+  }
+  .flexbox-allproducts-page .filters {
+    display: none;
+  }
+  .pop-up {
+    width: 400px;
+    height: 320px;
+  }
+  .pop-up .title-close .pop-up-title {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .pop-up .title-close .pop-up-close {
+    padding: 5px;
+  }
+  .pop-up .pop-up-product-block .pop-up-image-container img {
+    width: 180px;
+    height: 180px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-product-name {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-review-stars {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-price {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .add-to-basket {
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+  }
+  .account-and-basket .account-basket-item .dropdown-basket {
+    width: 50vw;
+  }
+  .pop-up {
+    width: 400px;
+    height: 420px;
+  }
+  .pop-up .title-close .pop-up-title {
+    margin-top: 10px;
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+  .pop-up .title-close .pop-up-close {
+    font-size: 14px;
+    padding: 4px;
+  }
+  .pop-up .pop-up-product-block .pop-up-image-container img {
+    width: 200px;
+    height: 200px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-product-name {
+    font-size: 14px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-review-stars {
+    font-size: 12px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .amount {
+    width: 40px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .add-to-basket {
+    font-size: 14px;
+    padding: 20px 30px;
+  }
+  #footer .footer-logos {
+    display: none;
+  }
+  #footer .footer-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 180px;
+  }
+  #footer .social-media {
+    width: 50%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  #footer .social-media .link-list {
+    padding-top: 26px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .login-pop-up, .register-pop-up {
+    overflow: auto;
+    width: 300px;
+    height: 400px;
+  }
+  .login-pop-up .container-tit-del, .register-pop-up .container-tit-del {
+    width: 260px;
+  }
+  .login-pop-up .container-info, .register-pop-up .container-info {
+    font-size: 20px;
+    max-width: 260px;
+  }
+  .login-pop-up .container-info .login-input, .login-pop-up .container-info .register-input, .register-pop-up .container-info .login-input, .register-pop-up .container-info .register-input {
+    line-height: 1.6rem;
+  }
+  .login-pop-up .container-info .submit-register, .register-pop-up .container-info .submit-register {
+    font-size: 20px;
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1375px) and (max-device-width: 1073px) and (max-device-width: 1010px) and (max-device-width: 970px) and (max-device-width: 780px) and (max-device-width: 660px) and (max-device-width: 580px) {
+  .recommended-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    margin-left: 0;
+  }
+  .gridbox-list .image-container img {
+    width: 130px;
+    height: 130px;
+  }
+  .pop-up {
+    width: 400px;
+    height: 420px;
+  }
+  .pop-up .title-close .pop-up-title {
+    margin-top: 10px;
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+  .pop-up .title-close .pop-up-close {
+    font-size: 14px;
+    padding: 4px;
+  }
+  .pop-up .pop-up-product-block .pop-up-image-container img {
+    width: 200px;
+    height: 200px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-product-name {
+    font-size: 14px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-review-stars {
+    font-size: 12px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .amount {
+    width: 40px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .add-to-basket {
+    font-size: 14px;
+    padding: 20px 30px;
+  }
+  #footer .footer-logos {
+    display: none;
+  }
+  #footer .footer-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 180px;
+  }
+  #footer .footer-contact .sign-up {
+    color: #ffff;
+    font-size: 14px;
+  }
+  #footer .social-media {
+    width: 50%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  #footer .social-media .link-list {
+    padding-top: 26px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 1375px) and (max-device-width: 1073px) and (max-device-width: 1010px) and (max-device-width: 970px) and (max-device-width: 780px) and (max-device-width: 660px) and (max-device-width: 580px) and (max-device-width: 460px) {
+  .logo {
+    font-size: 18px;
+  }
+  .account-and-basket {
+    font-size: 18px;
+  }
+  #nav-bar {
+    height: 100px;
+  }
+  #nav-bar .list {
+    margin-left: 20px;
+  }
+  #nav-bar .list .dropdown-nutrition, #nav-bar .list .dropdown-clothing, #nav-bar .list .dropdown-vitamins {
+    top: 30px;
+  }
+  .gridbox-list {
+    font-size: 10px;
+  }
+  .gridbox-list .image-container img {
+    width: 100px;
+    height: 100px;
+  }
+  .gridbox-list .image-container .quick-buy {
+    width: 80px;
+    bottom: 10px;
+    right: 65px;
+  }
+  .gridbox-list .image-container .quick-buy .quick-buy-btn {
+    font-size: 10px;
+    padding: 4px;
+  }
+  .pop-up {
+    width: 300px;
+    height: 400px;
+  }
+  .pop-up .title-close .pop-up-title {
+    margin-top: 10px;
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+  .pop-up .title-close .pop-up-close {
+    font-size: 14px;
+    padding: 4px;
+  }
+  .pop-up .pop-up-product-block .pop-up-image-container img {
+    width: 100px;
+    height: 100px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-product-name {
+    font-size: 14px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-review-stars {
+    font-size: 12px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .amount {
+    width: 40px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .add-to-basket {
+    font-size: 14px;
+    padding: 20px 30px;
+  }
+  #footer .footer-contact .sign-up {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 30px;
+  }
+  #footer .footer-contact .social-media {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1375px) and (max-device-width: 1073px) and (max-device-width: 1010px) and (max-device-width: 970px) and (max-device-width: 780px) and (max-device-width: 660px) and (max-device-width: 580px) and (max-device-width: 460px) and (max-device-width: 420px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header .logo {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  #nav-bar .list {
+    margin-left: 0;
+  }
+  .dropdown-nutrition, .dropdown-clothing, .dropdown-vitamins {
+    width: 95vw;
+  }
+  .offer {
+    font-size: 12px;
+  }
+  .offer-photo {
+    height: 150px;
+  }
+  .flexbox-allproducts-page .all-products-section {
+    margin-left: 10px;
+  }
+  .gridbox-list {
+    font-size: 8px;
+  }
+  .gridbox-list .image-container img {
+    width: 85px;
+    height: 85px;
+  }
+  .discover-list {
+    margin-top: 10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    row-gap: 5px;
+    height: 400px;
+  }
+  .discover-list .discover-item {
+    padding: 0.8rem 1.2rem;
+  }
+  .pop-up {
+    width: 300px;
+    height: 400px;
+  }
+  .pop-up .title-close .pop-up-title {
+    margin-top: 10px;
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+  .pop-up .title-close .pop-up-close {
+    font-size: 14px;
+    padding: 4px;
+  }
+  .pop-up .pop-up-product-block .pop-up-image-container img {
+    width: 100px;
+    height: 100px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-product-name {
+    font-size: 14px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .pop-up-review-stars {
+    font-size: 12px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .amount {
+    width: 40px;
+  }
+  .pop-up .pop-up-product-block .pop-up-product-info .add-to-basket {
+    font-size: 14px;
+    padding: 20px 30px;
+  }
+  #footer .footer-contact .sign-up {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 10px;
+  }
+  #footer .footer-contact .social-media {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 10px;
+  }
+  #footer .footer-contact .social-media .link-list {
+    width: 20%;
+  }
+  #footer .footer-contact .social-media .link-list .link-item {
+    font-size: 16px;
+  }
+  .login-pop-up, .register-pop-up {
+    overflow: auto;
+    width: 280px;
+    height: 400px;
+  }
+  .login-pop-up .container-tit-del, .register-pop-up .container-tit-del {
+    width: 220px;
+  }
+  .login-pop-up .container-info, .register-pop-up .container-info {
+    font-size: 16px;
+    max-width: 220px;
+  }
+  .login-pop-up .container-info .login-input, .login-pop-up .container-info .register-input, .register-pop-up .container-info .login-input, .register-pop-up .container-info .register-input {
+    line-height: 1.4rem;
+  }
+  .login-pop-up .container-info .submit-register, .register-pop-up .container-info .submit-register {
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=mediaa.css.map */
