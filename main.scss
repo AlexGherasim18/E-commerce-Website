@@ -29,7 +29,7 @@ body {
 
 .header {
   width: 100%;
-  height: 60px;
+  height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -44,7 +44,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   color: #283747;
-  font-size: 30px;
+  font-size: 24px;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -67,7 +67,7 @@ body {
       width: 90%;
       border: none;
       margin: 5px 0 5px 0;
-      line-height: 2rem;
+      line-height: 1.6rem;
       outline: none;
       font-size: 18px;
       padding-left: 5px;
@@ -98,7 +98,7 @@ body {
 
   .account-basket-item {
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
     height: 100%;
     padding: 10px 15px 10px 15px;
     display: flex;
@@ -126,7 +126,7 @@ body {
       width: 280px;
       height: 200px;
       position: absolute;
-      top: 45px;
+      top: 40px;
       right: 0px;
 
       .dropdown-user-buttons {
@@ -139,7 +139,7 @@ body {
         button {
           cursor: pointer;
           border: none;
-          padding: 10px 20px;
+          padding: 8px 16px;
           margin-bottom: 20px;
           width: 160px;
           font-size: 20px;
@@ -183,7 +183,7 @@ body {
       width: 25vw;
       height: 50vh;
       position: absolute;
-      top: 45px;
+      top: 40px;
       right: 0px;
       overflow: auto;
 
@@ -232,14 +232,14 @@ body {
       }
       .buy-basket-products {
         cursor: pointer;
-        font-size: 24px;
+        font-size: 20px;
         margin-top: 100px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         border: none;
         background: $primary-color;
         color: #ffff;
         align-self: center;
-        padding: 20px;
+        padding: 10px;
         width: 80%;
 
         &:hover {
@@ -248,7 +248,7 @@ body {
       }
       .basket-total-price {
         align-self: flex-end;
-        font-size: 24px;
+        font-size: 20px;
         margin-right: 20px;
         font-weight: bold;
       }
@@ -271,7 +271,7 @@ body {
 
 #nav-bar {
   width: 100%;
-  height: 35px;
+  height: 40px;
   background-color: $primary-color;
   display: flex;
 
@@ -285,7 +285,7 @@ body {
     list-style: none;
 
     .list-item {
-      font-size: 20px;
+      font-size: 16px;
       height: 100%;
       margin-right: 100px;
       padding: 0px 10px 0 10px;
@@ -327,7 +327,7 @@ body {
   top: 35px;
   left: 0;
   width: 60vw;
-  height: 30vh;
+  height: 38vh;
   overflow: auto;
 
   .dropdown {
@@ -344,6 +344,7 @@ body {
     .vitamins {
       display: flex;
       flex-direction: row;
+      margin: 20px 30px 0 30px;
     }
 
     h6 {
@@ -363,7 +364,7 @@ body {
 
 // Change the width and height on Vitamins dropdown
 .dropdown-vitamins {
-  width: 28vw;
+  width: 35vw;
   height: 10vh;
 }
 
@@ -372,7 +373,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 14px;
   width: 100%;
   background: #BDC3C7;
   
@@ -399,7 +400,7 @@ body {
   align-items: center;
   justify-content: center;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 18px;
 
   &:hover {
     background-color: $light-color;
@@ -526,7 +527,7 @@ body {
   .footer-logos {
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 80px;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 40px;
@@ -542,7 +543,7 @@ body {
 
     .sign-up {
       color: #ffff;
-      font-size: 20px;
+      font-size: 16px;
       margin-left: 80px;
       padding-top: 10px;
       font-weight: bold;
@@ -554,7 +555,7 @@ body {
     .sign-up-btn {
       font-weight: normal;
       background: $primary-color;
-      padding: 10px 15px 10px 15px;
+      padding: 5px 8px;
       border: thin;
 
       &:hover {
@@ -568,7 +569,7 @@ body {
 
     .link-list {
       padding-top: 26px;
-      font-size: 28px;
+      font-size: 18px;
       list-style: none;
       display: flex;
       flex-direction: row;
@@ -577,8 +578,8 @@ body {
         cursor: pointer;
         margin-right: 26px;
         background-color: $primary-color;
-        padding: 8px 15px 8px 15px;
-        border-radius: 50%;
+        padding: 8px 15px;
+        border-radius: 30%;
 
       }
         .instagram {
@@ -618,7 +619,7 @@ body {
 
 // All Products Page
 .page-order {
-  margin-left: 100px;
+  margin-left: 40px;
   padding-top: 30px;
   a {
     color: #333;
@@ -632,13 +633,14 @@ body {
 
   .filters {
     flex: 1;
-    margin-left: 90px;
+    margin-left: 40px;
     border: solid 1px grey;
     border-radius: 30px;
     padding: 10px 18px 10px 18px;
+    min-width: 200px;
 
     .filter-title {
-      font-size: 18px;
+      font-size: 16px;
       padding-bottom: 10px;
       margin-top: 10px;
     }
@@ -648,7 +650,7 @@ body {
     }
     .product-item {
       padding-bottom: 10px;
-      font-size: 18px;
+      font-size: 14px;
     }
   }
 
@@ -663,6 +665,13 @@ body {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 1.2rem;
+
+  .image-container {
+    img {
+      width: 280px;
+      height: 280px;
+    }
+  }
 }
 
 .pop-up {
@@ -671,8 +680,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 900px;
-  height: 700px;
+  width: 700px;
+  height: 500px;
   background-color: #ffff;
 
   .title-close{
@@ -683,14 +692,14 @@ body {
     .pop-up-title {
       padding-bottom: 10px;
       margin-left: 10px;
-      font-size: 32px;
+      font-size: 26px;
       color: $grey-color;
     }
     .pop-up-close {
       cursor: pointer;
       padding: 15px;
       margin-right: 10px;
-      font-size: 24px;
+      font-size: 20px;
       border: none;
       background: #ffff;
 
@@ -715,26 +724,26 @@ body {
       
       .pop-up-product-name {
         color: #333;
-        font-size: 28px;
+        font-size: 20px;
         margin-bottom: 50px;
       }
       .pop-up-review-stars {
-        font-size: 24px;
+        font-size: 22px;
         margin-bottom: 40px;
         color: $primary-color;
       }
       .amount {
         margin-bottom: 30px;
-        font-size: 20px;
+        font-size: 18px;
         width: 50px;
         padding: 5px 0 5px 10px;
       }
       .pop-up-price {
-        font-size: 28px;
+        font-size: 22px;
         margin-bottom: 100px;
       }
       .add-to-basket {
-        padding: 20px 80px 20px 80px;
+        padding: 20px 40px 20px 40px;
         font-size: 24px;
         border: none;
         background-color: $primary-color;
@@ -755,12 +764,13 @@ body {
 }
 
 .login-pop-up, .register-pop-up {
+  overflow: auto;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 700px;
-  height: 900px;
+  height: 500px;
   background-color: #ffff;
 
   .container-tit-del {
@@ -789,12 +799,12 @@ body {
   .container-info {
     display: flex;
     flex-direction: column;
-    font-size: 24px;
-    max-width: 660px;
+    font-size: 18px;
+    max-width: 600px;
     margin: 0 auto;
 
     .login-input, .register-input {
-      line-height: 2.4rem;
+      line-height: 1.4rem;
       margin-bottom: 20px;
       border: none;
       background: #e5f2f3;
@@ -805,12 +815,12 @@ body {
 
     .submit-login, .submit-register {
       cursor: pointer;
-      padding: 20px;
+      padding: 16px;
       border: none;
       border-radius: 10px;
       background: $primary-color;
       color: #ffff;
-      font-size: 28px;
+      font-size: 24px;
 
       &:hover {
         filter: brightness(120%);
